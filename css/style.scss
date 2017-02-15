@@ -1,6 +1,5 @@
 @import "./reset.css";
 @import url('https://fonts.googleapis.com/css?family=Play');
-// <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">;
 
 $stpad: 40px 100px;
 $blue: #0e75bc;
@@ -9,9 +8,10 @@ body {
   font: 20px/30px 'Play', Tahoma, sans-serif;
   color: #000;
   text-align: left;
+  min-width: 1200px;
 }
 
-.wrapper {
+.texture {
   height: 1400px;
   overflow: hidden;
   background: url(../img/bgup.png) center -400px;

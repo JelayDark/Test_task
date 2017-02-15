@@ -3,9 +3,10 @@
 body {
   font: 20px/30px 'Play', Tahoma, sans-serif;
   color: #000;
-  text-align: left; }
+  text-align: left;
+  min-width: 1200px; }
 
-.wrapper {
+.texture {
   height: 1400px;
   overflow: hidden;
   background: url(../img/bgup.png) center -400px;
