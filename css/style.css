@@ -1,0 +1,116 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css?family=Play");
+body {
+  font: 20px/30px 'Play', Tahoma, sans-serif;
+  color: #000;
+  text-align: left; }
+
+.wrapper {
+  height: 1400px;
+  overflow: hidden;
+  background: url(../img/bgup.png) center -400px;
+  background-size: 120%; }
+
+h1 {
+  margin-top: 160px;
+  margin-left: -1px;
+  color: #000;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px;
+  text-transform: uppercase; }
+  h1.page {
+    margin-top: 0;
+    color: #fff;
+    font-weight: normal;
+    background-color: #0e75bc;
+    min-width: 445px;
+    display: inline-block;
+    padding: 3px 10px 3px 100px;
+    margin-left: -100px; }
+  h1.list {
+    color: #222;
+    width: 445px;
+    margin-top: 0;
+    font-weight: normal;
+    border-bottom: 1px solid #ff9900; }
+
+h2 {
+  font-size: 25px;
+  line-height: 25px;
+  color: #0e75bc;
+  font-weight: bold; }
+  h2.thin {
+    margin-top: 15px;
+    font-weight: normal;
+    padding-bottom: 40px; }
+  h2.pagename {
+    font-size: 23px;
+    color: #000;
+    font-weight: normal; }
+
+header {
+  min-height: 70px;
+  color: #0e75bc;
+  padding: 40px 100px 0;
+  background-color: rgba(243, 243, 243, 0.5);
+  position: relative; }
+  header img {
+    height: 55px;
+    width: auto;
+    position: absolute;
+    top: 25px;
+    right: 100px; }
+
+main {
+  padding: 40px 100px; }
+
+ul {
+  margin: 40px 0 100px;
+  font-size: 22px; }
+  ul.stlist {
+    list-style: disc;
+    margin-left: 40px;
+    width: 650px; }
+
+dl {
+  margin: 30px 0 120px; }
+  dl h2 {
+    margin-bottom: 20px; }
+
+dt {
+  float: left;
+  font-weight: bold; }
+
+dd {
+  padding-left: 200px; }
+
+table {
+  width: 1100px;
+  margin: 30px auto 160px; }
+
+thead {
+  color: #0e75bc;
+  font-size: 30px;
+  height: 35px;
+  border-bottom: 2px solid #ff9900; }
+
+.decrease {
+  font-size: 20px; }
+
+td, th {
+  height: 25px;
+  margin: 0 20px; }
+  td:first-child, th:first-child {
+    font-weight: bold; }
+  td:nth-child(3), th:nth-child(3) {
+    width: 400px;
+    text-align: center; }
+  td:last-child, th:last-child {
+    width: 180px;
+    text-align: center; }
+
+footer {
+  color: #fff;
+  padding: 30px 100px 40px;
+  background-color: #0e75bc; }

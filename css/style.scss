@@ -1,0 +1,151 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css?family=Play');
+// <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">;
+
+$stpad: 40px 100px;
+$blue: #0e75bc;
+
+body {
+  font: 20px/30px 'Play', Tahoma, sans-serif;
+  color: #000;
+  text-align: left;
+}
+
+.wrapper {
+  height: 1400px;
+  overflow: hidden;
+  background: url(../img/bgup.png) center -400px;
+  background-size: 120%;
+}
+
+h1 {
+    margin-top: 160px;
+    margin-left: -1px;
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 50px;
+    text-transform: uppercase;
+      &.page {
+        margin-top: 0;
+        color: #fff;
+        font-weight: normal;
+        background-color: $blue;
+        min-width: 445px;
+        display: inline-block;
+        padding: 3px 10px 3px 100px;
+        margin-left: -100px;
+      }
+      &.list {
+        color: #222;
+        width: 445px;
+        margin-top: 0;
+        font-weight: normal;
+        border-bottom: 1px solid #ff9900;
+      }
+  }
+
+h2 {
+    font-size: 25px;
+    line-height: 25px;
+    color: $blue;
+    font-weight: bold;
+    &.thin {
+      margin-top: 15px;
+      font-weight: normal;
+      padding-bottom: 40px;
+    }
+    &.pagename {
+      font-size: 23px;
+      color: #000;
+      font-weight: normal;
+    }
+}
+
+header {
+  min-height: 70px;
+  color: $blue;
+  padding: 40px 100px 0;
+  background-color: rgba(243, 243, 243, 0.5);
+  // background-color: #f3f3f3;
+  position: relative;
+    img {
+      height: 55px;
+      width: auto;
+      position: absolute;
+      top: 25px;
+      right: 100px;
+    }
+}
+
+main {
+  padding: $stpad;
+}
+
+ul {
+  margin: 40px 0 100px;
+  font-size: 22px;
+    &.stlist {
+      list-style: disc;
+      margin-left: 40px;
+      width: 650px;
+    }
+}
+
+dl {
+  margin: 30px 0 120px;
+  h2 {
+    margin-bottom: 20px;
+  }
+}
+
+dt {
+  float: left;
+  font-weight: bold;
+}
+
+dd {
+  padding-left: 200px;
+}
+
+table {
+  width: 1100px;
+  margin: 30px auto 160px;
+}
+
+thead {
+  color: $blue;
+  font-size: 30px;
+  height: 35px;
+  border-bottom: 2px solid #ff9900;
+
+}
+
+.decrease {
+  font-size: 20px;
+}
+
+td, th {
+  height: 25px;
+  margin: 0 20px;
+
+  &:first-child {
+    font-weight: bold;
+  }
+
+  &:nth-child(3) {
+    width: 400px;
+    text-align: center;;
+  }
+
+  &:last-child {
+    width: 180px;
+    text-align: center;;
+  }
+}
+
+footer {
+  color: #fff;
+  padding: 30px 100px 40px;
+  background-color: $blue;
+}
