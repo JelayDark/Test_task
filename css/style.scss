@@ -113,13 +113,6 @@ table {
   margin: 30px auto 160px;
 }
 
-thead {
-  color: $blue;
-  font-size: 30px;
-  height: 35px;
-  border-bottom: 2px solid #ff9900;
-
-}
 
 .decrease {
   font-size: 20px;
@@ -129,9 +122,6 @@ td, th {
   height: 25px;
   margin: 0 20px;
 
-  &:first-child {
-    font-weight: bold;
-  }
 
   &:nth-child(3) {
     width: 400px;
@@ -142,6 +132,17 @@ td, th {
     width: 180px;
     text-align: center;;
   }
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+thead {
+  color: $blue;
+  font-size: 30px;
+  height: 35px;
+  border-bottom: 2px solid #ff9900;
 }
 
 footer {
