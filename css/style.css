@@ -9,7 +9,7 @@ body {
 .texture {
   height: 1400px;
   overflow: hidden;
-  background: url(../img/bgup.png) center -400px;
+  background: url(../img/texture.png) center -400px;
   background-size: 120%; }
 
 h1 {
