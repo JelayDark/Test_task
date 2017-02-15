@@ -102,14 +102,15 @@ thead {
 td, th {
   height: 25px;
   margin: 0 20px; }
-  td:first-child, th:first-child {
-    font-weight: bold; }
   td:nth-child(3), th:nth-child(3) {
     width: 400px;
     text-align: center; }
   td:last-child, th:last-child {
     width: 180px;
     text-align: center; }
+
+td:first-child {
+  font-weight: bold; }
 
 footer {
   color: #fff;
